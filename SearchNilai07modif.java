@@ -29,7 +29,7 @@ public class SearchNilai07modif {
         }
         if (hasil == -1) {
         System.out.println();
-        System.out.println("Nilai "+key+" ketemu di indeks ke- "+hasil);
+        System.out.println("Nilaii "+key+" ketemu di indeks ke- "+hasil);
         System.out.println();
         }
     }
