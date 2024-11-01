@@ -20,13 +20,17 @@ public class SearchNilai07modif {
         key = sc.nextInt();
         for (int i = 0; i < arrNilai.length; i++) {
             if (key == arrNilai[i]) {
-                hasil = i;
+                hasil = i+1;
+                System.out.println();
+                System.out.println("Nilai "+key+" ketemu di indeks ke- "+hasil);
+                System.out.println();
                 break;
             }
         }
+        if (hasil == -1) {
         System.out.println();
         System.out.println("Nilai "+key+" ketemu di indeks ke- "+hasil);
         System.out.println();
-        
+        }
     }
 }
